@@ -11,11 +11,11 @@ st.title("Transitional Flow\n\n")
 st.sidebar.header("y = a*sin(b*x +c)")
 st.sidebar.subheader("Parameters")
 
-a = st.sidebar.number_input("   A", min_value=- 100.0,
+a = st.sidebar.number_input("   Amplitude (A)", min_value=- 100.0,
                             max_value=100.0, value=1.0, step=0.1)
-b = st.sidebar.number_input("   B", min_value=- 100.0,
+b = st.sidebar.number_input("   Frequency (B)", min_value=- 100.0,
                             max_value=100.0, value=1.0, step=0.1)
-c = st.sidebar.number_input("   C", min_value=- 1000.0,
+c = st.sidebar.number_input("   Phase (C)", min_value=- 1000.0,
                             max_value=1000.0, value=0.0, step=0.1)
 
 bo = st.sidebar.checkbox(
